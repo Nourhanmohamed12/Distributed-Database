@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5fa;
+    color: #333;
+    text-align: center;
+}
+
+h1 {
+    background-color: #e7eaf6;
+    padding: 20px;
+    margin: 0;
+    color: #4a4a7a;
+    font-size: 2.5rem;
+}
+
+h2 {
+    color: #4a4a7a;
+    margin: 20px 0 10px;
+    font-size: 1.8rem;
+}
+
+section {
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    width: 90%;
+    max-width: 1200px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #4a90e2;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: #357abd;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0;
+}
+
+table thead {
+    background-color: #4a90e2;
+    color: #fff;
+}
+
+table th,
+table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+a {
+    text-decoration: none;
+    color: #4a90e2;
+    font-size: 1.2rem;
+    margin: 0 5px;
+}
+
+a:hover {
+    color: #357abd;
+}
+/* Container for the first two tables */
+.tables-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 1300px;
+}
+
+/* Each table section */
+.tables-row > section {
+    flex: 1; /* Makes sections equal width */
+    margin: 10px;
+}
+
+/* Ensure proper alignment and spacing */
+.tables-row > section:first-child {
+    margin-right: 10px; /* Adjust gap between first two sections */
+}
+
+.tables-row > section:last-child {
+    margin-left: 10px;
+}
+
+/* Third table section as a standalone row */
+.standalone-section {
+    margin: 20px auto;
+    width: 100%;
+    max-width: 1300px;
+}
